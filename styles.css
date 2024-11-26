@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.upload-section, .action-buttons {
+    margin-bottom: 20px;
+}
+
+.upload-section input, 
+.action-buttons button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#memeCanvas {
+    border: 2px solid #333;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.gallery-section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#memeGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#memeGallery img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

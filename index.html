@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Mèmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Générateur de Mèmes</h1>
+        <div class="upload-section">
+            <input type="file" id="imageInput" accept="image/*">
+            <input type="text" id="topText" placeholder="Texte du haut">
+            <input type="text" id="bottomText" placeholder="Texte du bas">
+        </div>
+        <div class="preview-section">
+            <canvas id="memeCanvas"></canvas>
+        </div>
+        <div class="action-buttons">
+            <button id="generateButton">Générer le Mème</button>
+            <button id="downloadButton">Télécharger le Mème</button>
+            <button id="shareButton">Partager</button>
+        </div>
+        <div class="gallery-section">
+            <h2>Galerie des Mèmes</h2>
+            <div id="memeGallery"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
